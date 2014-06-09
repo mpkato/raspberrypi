@@ -1,8 +1,16 @@
+'''
+This is a comment
+'''
+# this is also a comment
+
 # strings
 txt = 'Hello,'
 txt += ' World! '
 print txt
 print txt * 2
+print '''Here document.
+Here document.
+'''
 print
 
 # int
@@ -47,7 +55,7 @@ del d['b']
 print d
 print 
 
-# loop
+# 'for' loop
 for i in [0, 1, 2, 3]:
     print i
 print range(4)
@@ -55,3 +63,17 @@ for i in range(4):
     print i
 for key in {'a': 1, 'b': 2}:
     print key
+
+# 'while' loop
+i = 0
+while i < 3:
+    print i
+    i += 1
+
+# if
+for i in range(5):
+    if i < 2:
+        print '%d < 2' % i
+    else:
+        print '2 <= %d < 5' % i
+
