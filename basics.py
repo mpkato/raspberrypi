@@ -24,3 +24,4 @@ print '%f == 1.000000' % f
 print '%d == 1' % f
 print '%s == 1.0' % f
 print '%d + %d == 3' % (i, f)
+print 'Welcome to %s' % 'Kyoto'
